@@ -1,0 +1,93 @@
+/* ======================  Body Styles Start===============================*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  /* background-color: red; */
+}
+
+/* ======================  Body Styles END ===============================*/
+
+/* ======================  Navigation Styles Start===============================*/
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 600 !important;
+}
+.nav-item a:hover {
+  border-bottom: 3px solid white;
+  color: white !important;
+  transition: all 0.2s;
+}
+@media only screen and (max-width: 691px) {
+  .navContent {
+    margin: auto auto;
+  }
+}
+/* ======================  Navigation Styles END ===============================*/
+
+/* ======================  Content Styles Start===============================*/
+.content {
+  margin: 1% 10% 10%;
+}
+@media only screen and (max-width: 710px) {
+  input {
+    margin: auto;
+  }
+}
+input,
+textarea {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: rgb(235, 235, 235) !important;
+  transition: all 0.2s !important;
+}
+
+input:focus {
+  background-color: white !important;
+  box-shadow: 1px 5px 10px #5cb85c !important ;
+  border-bottom: 3px solid #5cb85c !important ;
+}
+textarea:focus {
+  background-color: white !important;
+  box-shadow: 1px 5px 10px #5cb85c !important ;
+  border-bottom: 3px solid #5cb85c !important ;
+}
+
+/* ======================  Content Styles END ===============================*/
+
+/* ======================  Footer Styles Start===============================*/
+
+/* ======================  Fonts Styles Start===============================*/
+
+/* h1 - h6 : Ubuntu
+p : MOntseratt */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p,
+label,
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+}
+
+label,
+textarea {
+  font-weight: bold;
+  font-size: 1.2rem !important;
+}
+
+/* ======================  Fonts Styles END ===============================*/
+
+.border-bottom-3 {
+  border-bottom: 3px solid black !important;
+}
